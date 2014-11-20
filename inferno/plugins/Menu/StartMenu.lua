@@ -7,7 +7,7 @@ function StartMenu.Init(Core)
     local internet_menu = 
     {
         {" Chrome", "chromium", beautiful.chrome_icon},
-        {" Post Link", "/home/finomen/PostLink/usr/share/PostLink/start.sh"}
+        {" Post Link", os.getenv("HOME") .. "/PostLink/usr/share/PostLink/start.sh"}
     }
 
     local editors_menu = 
@@ -24,7 +24,7 @@ function StartMenu.Init(Core)
     local develop_menu = 
     {
         {" Mono Develop", "monodevelop"},
-        {" IntelliJ Idea", "/home/finomen/idea-IC-139.224.1/bin/idea.sh"}
+        {" IntelliJ Idea", os.getenv("HOME") .. "/idea-IC-139.224.1/bin/idea.sh"}
     }
 
     local system_menu = 
