@@ -18,7 +18,7 @@ function StartMenu.Init(Core)
     local office_menu = 
     {
         {" Writer", "libreoffice --writer"},
-        {" Calc", "libreoffice --cacl"}
+        {" Calc", "libreoffice --calc"}
     }
 
     local develop_menu = 
