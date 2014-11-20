@@ -21,12 +21,8 @@ local naughty = Core.Module("naughty")
 --local menubar = require("menubar")
 lain = Core.Module("lain")
 
-app_menu = Core.Module("app_menu")
-top_menu = Core.Module("top_menu")
-
 local error_handler = Core.Module("error_handler")
 
-Alsa = Core.Module("alsamixer")
 
 modkey = "Mod4"
 
@@ -52,6 +48,9 @@ Core.Plugin("Tags.TagBox")
 
 -- Middle bar
 Core.Plugin("TaskList")
+
+-- Misc
+Core.Plugin("ScreenGrab")
 
 Core.Setup()
 
