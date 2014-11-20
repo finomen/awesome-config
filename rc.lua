@@ -36,9 +36,11 @@ Core.Plugin("Keys.AwesomeKeys")
 Core.Plugin("Keys.LayoutKeys")
 Core.Plugin("Keys.SystemKeys")
 Core.Plugin("Menu.HotKeys")
+Core.Plugin("Alsa.AlsaKeys")
 
 -- Right bar
 Core.Plugin("SysTray")
+Core.Plugin("Alsa.AlsaBar")
 Core.Plugin("Keyboard.Layout")
 Core.Plugin("TextClock")
 Core.Plugin("Layouts.LayoutBox")
