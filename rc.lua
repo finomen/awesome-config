@@ -16,12 +16,9 @@ wibox = Core.Module("wibox")
 -- Theme handling library
 beautiful = Core.Module("beautiful")
 beautiful.init(os.getenv("HOME") .. "/.config/awesome/themes/copland/theme.lua")
--- Notification library
-local naughty = Core.Module("naughty")
+
 --local menubar = require("menubar")
 lain = Core.Module("lain")
-
-local error_handler = Core.Module("error_handler")
 
 
 modkey = "Mod4"
