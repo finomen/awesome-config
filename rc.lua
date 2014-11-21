@@ -26,6 +26,9 @@ local error_handler = Core.Module("error_handler")
 
 modkey = "Mod4"
 
+-- Core plugins
+Core.Plugin("ErrorHandler")
+
 -- Keyboard shortcuts
 Core.Plugin("Keys.TagKeys")
 Core.Plugin("Keys.AwesomeKeys")
