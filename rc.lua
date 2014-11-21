@@ -52,6 +52,9 @@ Core.Plugin("TaskList")
 -- Misc
 Core.Plugin("ScreenGrab")
 
+-- Desktop widgets
+Core.Plugin("Log.Widget")
+
 Core.Setup()
 
 
