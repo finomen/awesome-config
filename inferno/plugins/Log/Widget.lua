@@ -5,13 +5,12 @@ function LogWidget.Init(Core)
 	
 	local wbox = wibox({ bg = theme.bg_normal or "#000000",
 	                height = 100,
-	                width = 100,
-	                screen = 2
+	                width = 100
                 	})
 	wbox.ontop = false
 	wbox.visible = true
 
-	local scrgeom = screen[2].geometry
+	local scrgeom = screen[1].geometry
  	wbox:geometry({ x = scrgeom.x + 120, y = 120})
 
 	return LogWidget

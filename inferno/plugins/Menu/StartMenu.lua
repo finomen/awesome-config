@@ -28,6 +28,10 @@ function StartMenu.Init(Core)
         {" IntelliJ Idea", os.getenv("HOME") .. "/idea-IC-139.224.1/bin/idea.sh"}
     }
 
+    local multimedia_menu = {
+        {" Google Play Music", "/opt/google/musicmanager/google-musicmanager"}
+    }
+
     local system_menu = 
     {
         {" Terminal", "terminology"},
@@ -44,6 +48,7 @@ function StartMenu.Init(Core)
     StartMenu.Menu = awful.menu({
         items = {
             {" Internet", internet_menu},
+            {" Multimedia", multimedia_menu},
             {" Develop", develop_menu},
             {" Editors", editors_menu},
             {" Office", office_menu},
