@@ -24,6 +24,7 @@ function StartMenu.Init(Core)
     local develop_menu = 
     {
         {" Mono Develop", "monodevelop"},
+        {" Glade", "glade"},
         {" IntelliJ Idea", os.getenv("HOME") .. "/idea-IC-139.224.1/bin/idea.sh"}
     }
 
