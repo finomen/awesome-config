@@ -55,6 +55,9 @@ Core.Plugin("ScreenGrab")
 -- Desktop widgets
 Core.Plugin("Log.Widget")
 
+-- Client controls
+Core.Plugin("TitleBar")
+
 Core.Setup()
 
 
